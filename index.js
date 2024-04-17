@@ -1,6 +1,41 @@
 const farmAnimals = 'cow horse sheep pig chicken';
+const { moo, neigh, baa, oink, cluck } = {
+  moo: 'cow',
+  neigh: 'horse',
+  baa: 'sheep',
+  oink: 'pig',
+  cluck: 'chicken',
 
+}
+//const traditionalAnimalNames = ' cow sheep pig chicken';
+const { bessie, dolly, babe, little, } = {
+  bessie: 'cow',
+  dolly: 'sheep',
+  babe: 'pig',
+  little: 'chicken',
+}
+const { blackAndWhite, black, pink } = {
+  blackAndWhite: 'cow',
+  black: 'sheep',
+  pink: 'pig',
+}
+const traditionalRainbowColors = [colors];
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+const [red, orange, yellow, green, blue, indigo, violet] = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+const[indg]=[indigo]
+
+
+
+const [r, o, y, g, b, v] = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
+
+
+const { muppetName, color, song, job, partner } = {
+  muppetName: 'Miss Piggy',
+  color: 'pink',
+  song: 'Never Before, Never Again',
+  job: 'Cast member of The Muppet Show',
+  partner: 'Kermit',
+}
 
 const muppet = {
   muppetName: 'Miss Piggy',
@@ -9,6 +44,7 @@ const muppet = {
   job: 'Cast member of The Muppet Show',
   partner: 'Kermit'
 };
+
 
 const nestedMuppet = {
   nestedName: 'Kermit',
@@ -24,6 +60,15 @@ const nestedMuppet = {
   nestedJob: 'Host of The Muppet Show',
   nestedPartner: 'Miss Piggy'
 };
+const { song2, song4, nested: { job: nestedJob, partner: nestedPartner } } = {
+  song2: "Moving Right Along",
+  song4: "I Hope That Something Better Comes Along",
+  nested: {
+    job: "Host of The Muppet Show",
+    partner: "Miss Piggy"
+  }
+};
+
 
 // Strings
 
